@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			html,body,ul,li,h2,h5,p,figure,figcaption{margin: 0;padding: 0;}
+			body{background: #ccc;}
+			li{list-style: none;}
+			img{border: 0;display: block;}
+			a{text-decoration: none;}
+			b,strong,h5{font-weight: normal;}
+			i,em{font-style: normal;}
+			/*顶部区域*/
+			.top{width: 100%;height: 200px;position: relative;background: url(imgs/banner.jpg) no-repeat left top;background-size: 100%;}
+			.top a{display:block;width: 60px;height: 68px;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;}
+			/*nav区域*/
+			.nav{width: 100%;height: 50px;background: #fff;}
+			.nav ul{display: flex;justify-content: center;align-items: center;height: 50px;border-bottom: solid 2px #9C9C9C;box-sizing: border-box;}
+			.nav li{padding: 0 25px;height: 50px;display: flex;align-items: center;}
+			.nav li a{color: #000;}
+			.nav li a:hover{color: orange;}
+			.borderb{border-bottom: solid 2px orange;height: 49px;}
+			/*内容大块*/
+			section{width: 80%;margin: 50px auto 0;}
+			section::after{content: ".";height: 0;visibility: hidden;clear: both;overflow: hidden;display: block;}
+			/*内容左部*/
+			section .content_l{float: left;width: 650px;}
+			.content_l article{background: #fff;padding: 25px;box-sizing: border-box;margin-bottom: 40px;}
+			.content_l article h2{text-align: center;}
+			.content_l article p{line-height: 50px;text-align: center;}
+			.content_l article a{display: block;width: 100px;height: 40px;text-align: center;line-height: 40px;background: orange;border-radius: 5px;color: #fff;}
+			.content_l article a:hover{}
+			.content_l article .ar_co{margin: 30px 0;}
+			.content_l article h4{border-top: solid 1px #ccc;}
+			/*内容右部*/
+			section aside{float: right;width: 330px;}
+			aside figure{background: #fff;padding: 20px;margin-bottom: 40px;}
+			aside figure h2{border-bottom: solid 1px #ccc;line-height: 40px;}
+			aside figure .fig_content{margin-top: 20px;}
+			aside figure p{line-height: 30px;}
+			/*底部大块*/
+			.bottom{height: 400px;color:#fff;}
+			/*底部导航*/
+			.nav_box{width: 100%;background: #222;}
+			.bottom nav{width: 80%;height: 320px;margin: 0 auto;background: none;padding: 30px 0 0 0;}
+			.bottom nav figure{width: 33.3%;float: left;padding-right: 60px;box-sizing: border-box;}
+			.bottom nav figure h2{border-bottom: solid 1px #fff;}
+			.bottom nav li{padding: 20px 0;border-bottom: dashed 1px #ccc;}
+			/*底部版权*/
+			.bottom .copy{text-align: center;line-height: 50px;background: #111;}
+			.bottom .copy a{color: #fff;}
+			
+		</style>
+	</head>
+	<body>
+		<header class="top"><a href=""><img src="imgs/logo.png"/></a></header>
+		<nav class="nav">
+			<ul>
+				<li class="borderb"><a href="">首页</a></li>
+				<li><a href="">论坛</a></li>
+				<li><a href="">快捷手册</a></li>
+				<li><a href="">中文文档</a></li>
+				<li><a href="">下载</a></li>
+				<li><a href="">关于</a></li>
+			</ul>
+		</nav>
+		<section>
+			<div class="content_l">
+				<article>
+					<header>
+						<h2>Node.js v4 LTS 成为 Ghost 推荐版本</h2>
+						<p>作者：<b>佚名</b>&middot;<time>2017年3月22日</time></p>
+					</header>
+					<div class="ar_co">从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托</div>
+					<footer>
+						<a href="">阅读全文</a>
+						<h4><i>夹</i></h4>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h2>Node.js v4 LTS 成为 Ghost 推荐版本</h2>
+						<p>作者：<b>佚名</b>&middot;<time>2017年3月22日</time></p>
+					</header>
+					<div class="ar_co">从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托</div>
+					<footer>
+						<a href="">阅读全文</a>
+						<h4><i>夹</i></h4>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h2>Node.js v4 LTS 成为 Ghost 推荐版本</h2>
+						<p>作者：<b>佚名</b>&middot;<time>2017年3月22日</time></p>
+					</header>
+					<div class="ar_co">从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托</div>
+					<footer>
+						<a href="">阅读全文</a>
+						<h4><i>夹</i></h4>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h2>Node.js v4 LTS 成为 Ghost 推荐版本</h2>
+						<p>作者：<b>佚名</b>&middot;<time>2017年3月22日</time></p>
+					</header>
+					<div class="ar_co">从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托</div>
+					<footer>
+						<a href="">阅读全文</a>
+						<h4><i>夹</i></h4>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h2>Node.js v4 LTS 成为 Ghost 推荐版本</h2>
+						<p>作者：<b>佚名</b>&middot;<time>2017年3月22日</time></p>
+					</header>
+					<div class="ar_co">从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托</div>
+					<footer>
+						<a href="">阅读全文</a>
+						<h4><i>夹</i></h4>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h2>Node.js v4 LTS 成为 Ghost 推荐版本</h2>
+						<p>作者：<b>佚名</b>&middot;<time>2017年3月22日</time></p>
+					</header>
+					<div class="ar_co">从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托</div>
+					<footer>
+						<a href="">阅读全文</a>
+						<h4><i>夹</i></h4>
+					</footer>
+				</article>
+			</div>
+			<aside>
+				<figure>
+					<figcaption><h2>社区</h2></figcaption>
+					<div class="fig_content">
+						<p>QQ群：277327792</p>
+						<p><i>问</i><a href="">问答社区</a></p>
+						<p><i>官</i><a href="">官方微博</a></p>
+					</div>
+				</figure>
+				<figure>
+					<figcaption><h2>社区</h2></figcaption>
+					<div class="fig_content">
+						<a href=""></a>
+					</div>
+				</figure>
+				<figure>
+					<figcaption><h2>社区</h2></figcaption>
+					<div class="fig_content">
+						<ul>
+							<li><a href=""></a></li>
+						</ul>
+					</div>
+				</figure>
+			</aside>
+		</section>
+		<footer class="bottom">
+			<div class="nav_box">
+				<nav>
+					<figure>
+						<figcaption><h2>最新文章</h2></figcaption>
+						<div class="fo_fi_con">
+							<ul>
+								<li>
+									<h5>Node.js v4 LTS 成为 Ghost 推荐版本</h5>
+									<time>2017.3.22</time>
+								</li>
+								<li>
+									<h5>Node.js v4 LTS 成为 Ghost 推荐版本</h5>
+									<time>2017.3.22</time>
+								</li>
+								<li>
+									<h5>Node.js v4 LTS 成为 Ghost 推荐版本</h5>
+									<time>2017.3.22</time>
+								</li>
+							</ul>
+						</div>
+					</figure>
+					<figure>
+						<figcaption><h2>最新文章</h2></figcaption>
+						<div class="fo_fi_con">
+							<ul>
+								<li></li>
+							</ul>
+						</div>
+					</figure>
+					<figure>
+						<figcaption><h2>最新文章</h2></figcaption>
+						<div class="fo_fi_con">
+							<ul>
+								<li>
+									
+								</li>
+							</ul>
+						</div>
+					</figure>
+				</nav>
+			</div>
+			<div class="copy"><p>Copyright &copy;<a href="">Ghost中文网</a> | <a href="">京ICP备11008151号</a> | 京公网安备11010802014853</p></div>
+		</footer>
+	</body>
+</html>
